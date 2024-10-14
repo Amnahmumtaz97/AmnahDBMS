@@ -18,11 +18,7 @@ namespace AmnahDBMS
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             string ConnectionString = "Data Source=AMNAH;Initial Catalog=project;Integrated Security=True;Trust Server Certificate=True";
@@ -30,6 +26,7 @@ namespace AmnahDBMS
            SqlConnection sql= new SqlConnection(ConnectionString);
             //
             sql.Open();
+            //
 
         }
 
